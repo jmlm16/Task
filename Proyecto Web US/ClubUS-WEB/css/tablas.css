@@ -1,0 +1,35 @@
+table{
+	border: 3px solid black;
+	margin:auto;
+}
+
+tr,td{
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+#fila1{
+	background: #4195fc;
+	color:white;
+}
+
+#columna1{
+	text-align: center;
+}
+
+#tcomp,#tclas{
+	border: 0;
+}
+#tcomp a,#tclas a{
+	text-decoration:none;
+	color:black;
+	font-weight: bold;
+}
+#tcomp a:hover, #tclas a:hover{
+	text-decoration:none;
+	color:black;
+	font-style: italic;
+}
+#fieldcomponentes{
+	text-align: center;
+}

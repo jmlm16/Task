@@ -1,0 +1,74 @@
+/* Estilos generales */
+
+input,select,textarea{
+	border: 1px solid black;
+}
+
+#div_submit{
+	text-align : center;
+}
+
+#div_datos_personales,
+#div_practica {
+  margin-bottom: 0.5em;
+}
+
+legend {
+  font-weight: bolder;
+}
+
+
+#label_nombre,
+#label_apellidos,
+#label_email,
+#label_descripcion {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 6em;
+  padding-right: 0.5em;
+  font-weight : bold;  
+}
+
+/* Datos personales */
+
+#div_nombre,
+#div_apellidos,
+#div_email,
+#div_descripcion {
+  margin-bottom: 0.5em;
+}
+
+input#nombre {
+  width: 50em;
+}
+
+input#apellidos {
+  width: 50em;
+}
+
+input#email {
+  width: 50em;
+}
+
+/* Pr�ctica */
+
+textarea#descripcion {
+  width: auto;
+  min-width:50%;
+  height: 8em;
+}
+
+/* Etiquetas de campos erroneos */
+label.error {
+	color : red;
+	font-weight : bold;
+}
+
+/* Mensajes de Error */
+div.error {
+	color : brown;	
+	border : 2px solid red;
+	padding : 10px;
+	margin: 10px;
+}
